@@ -1,0 +1,15 @@
+
+## Model Comparison and Inference
+
+- **Best Model by Accuracy**: GRU
+- **Fastest Training Time**: MLP
+- **Inference**:
+  - GRU achieved the highest accuracy of 0.88.
+  - CNN-BiLSTM has a competitive performance but took longer to train.
+  - MLP, though faster, had the lowest accuracy.
+  - GNN is effective but requires longer training.
+
+### Recommendations:
+- Use GRU for high accuracy with reasonable training time.
+- CNN-BiLSTM can be used if temporal relationships are critical.
+- Optimize GNN further to reduce training time.

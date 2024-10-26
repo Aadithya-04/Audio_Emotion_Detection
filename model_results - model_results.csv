@@ -1,0 +1,6 @@
+Model,Accuracy,Loss,Training Time (s)
+CNN,0.85,0.35,120
+GRU,0.88,0.32,150
+CNN-BiLSTM,0.87,0.33,160
+MLP,0.8,0.4,90
+GNN,0.83,0.36,180

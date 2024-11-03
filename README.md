@@ -77,6 +77,17 @@ dependencies {
 2. Analyze Emotion: The app uses the TensorFlow Lite model to predict the emotion from the audio file.
 3. Display Result: The detected emotion and accuracy are displayed on the screen.
 
+##Script for Mobile App Video 🎥
+As part of the Mobile Application Development course at Amrita School of Computing, we developed AudiEmotion: Audio Emotion Detection, an app focused on emotion detection through speech/audio analysis. The app is designed to assist within the Accessibility & Assistive Technology domain, specifically in Affective Computing and Audio Emotion Recognition.
+
+Our project utilizes the RAVDESS dataset to train several deep learning models, including CNN, GRU, an Improved CNN-BiLSTM Hybrid Model, MLP, and GNN. Testing revealed that CNN achieved an accuracy of 94.4%, while the Improved CNN-BiLSTM Hybrid Model provided the highest accuracy at 95%. ResNet followed closely at 96%, with the GRU at 88%, MLP at 93%, MobileNetV2 at 82.4%, and GNN at 84.5%.
+
+The dataset can be accessed here: [RAVDESS Dataset Link](https://drive.google.com/drive/folders/1be4CdN_1_GQerHqo6NbrQHwbZ-LkcEFc?usp=sharing)
+
+For a demonstration of the app in action, [Demo Link](https://drive.google.com/file/d/1x0AEPdn9t5uH9WWaLCSOaEO0SOdRRI7u/view?usp=sharing).
+
+The complete source code for EmotiSense is open-source and available on GitHub: [GitHub Link](https://github.com/Aadithya-04/Audio_Emotion_Detection.git)
+
 ## Acknowledgments 🙏
 1. RAVDESS Dataset for providing the labeled audio samples.
 2. TensorFlow Lite for on-device inference.
